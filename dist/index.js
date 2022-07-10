@@ -8,7 +8,7 @@ function getAllCountries() {
 }
 
 function getCountryByName(name) {
-    return countries.find(country => country.name === name);
+  return countries.find((country) => country.name === name);
 }
 
 function getStatesByCountryName(name) {
