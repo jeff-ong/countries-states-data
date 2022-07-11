@@ -12,11 +12,11 @@ function getCountryByName(name) {
 }
 
 function getStatesByCountryName(name) {
-  return states.find((state) => state.country_name === name);
+  return states.filter((state) => state.country_name === name);
 }
 
 function getStatesByCountryCode(code) {
-  return states.find((state) => state.country_code === code);
+  return states.filter((state) => state.country_code === code);
 }
 
 function getAllStates() {
