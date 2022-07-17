@@ -1,6 +1,6 @@
 {
   "name": "countries-states-data",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple library to get countries-to-states data",
   "main": "dist/index.js",
   "scripts": {
@@ -8,5 +8,13 @@
   },
   "author": "Jeff Ong",
   "keywords": ["countries", "states", "internationalization", "i18n", "iso", "provinces", "regions"],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeff-ong/countries-states-data"
+  },
+  "bugs": {
+    "url": "https://github.com/jeff-ong/countries-states-data/issues"
+  },
+  "homepage": "https://github.com/jeff-ong/countries-states-data#readme"
 }
